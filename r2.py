@@ -9,10 +9,10 @@ def convert(lines):
     person = None
     allen_word_count = 0 
     viki_word_count = 0
-    allen_sticker_count =0
-    viki_sticker_count =0
-    allen_image_count =0
-    viki_image_count =0
+    allen_sticker_count = 0
+    viki_sticker_count = 0
+    allen_image_count = 0
+    viki_image_count = 0
     for line in lines:
         s = line.split(' ')#遇到空白键请帮我切割
         time = s[0]
